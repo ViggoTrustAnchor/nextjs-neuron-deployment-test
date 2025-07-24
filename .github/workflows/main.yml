@@ -68,4 +68,6 @@ jobs:
           server: ${{ secrets.DEPLOY_TEST_FTP_SERVER }}
           username: ${{ secrets.DEPLOY_TEST_FTP_USERNAME }}
           password: ${{ secrets.DEPLOY_TEST_FTP_PASSWORD }}
-          server-dir: ${{ secrets.DEPLOY_TEST_FTP_TARGET_DIR || '/' }}
+          protocol: ftps
+          port: 990
+          server-dir: C:\ProgramData\IoT Gateway\Root\deploy
