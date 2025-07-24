@@ -68,5 +68,4 @@ jobs:
           server: ${{ secrets.DEPLOY_TEST_FTP_SERVER }}
           username: ${{ secrets.DEPLOY_TEST_FTP_USERNAME }}
           password: ${{ secrets.DEPLOY_TEST_FTP_PASSWORD }}
-          local-dir: ./deploy
           server-dir: ${{ secrets.DEPLOY_TEST_FTP_TARGET_DIR || '/' }}
