@@ -63,7 +63,7 @@ jobs:
           ls -la ./deploy
   
       - name: Upload via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.DEPLOY_TEST_FTP_SERVER }}
           username: ${{ secrets.DEPLOY_TEST_FTP_USERNAME }}
